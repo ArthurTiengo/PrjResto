@@ -1,0 +1,52 @@
+div.container{
+    margin: 0 auto;
+    width: 1440px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p, li, a {
+    color: #000;
+    font-family: "Libre Franklin";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.titulo{
+    color: #000;
+    font-family:Rancho;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.chamada p{
+    color: #000;
+    font-family: "Josefin Sans";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+span{
+    color: #2A9D8F;
+    font-family: "Josefin Sans";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.ver-menu p{
+    font-size: 30px;
+    margin-top: 138px;
+}

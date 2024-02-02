@@ -1,0 +1,78 @@
+*{
+    color: #000;
+    font-family: "Josefin Sans";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+div.container{
+    margin: 0 auto;
+    width: 1440px;
+}
+
+nav{
+    width: 1440px;
+    height: 150px;
+    flex-shrink: 0;
+}
+
+h2{
+    width: 162px;
+}
+
+nav ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    margin-top: 50px;
+    list-style: none;
+}
+
+button{
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 0px #F4A261;
+    background-color:#E76F51;
+    font-size: 20px;
+    width: 145px;
+    height: 50px;
+    flex-shrink: 0;
+    margin-top: 126px;
+    border-style: none;
+    color: white;
+}
+
+.geral{
+    display: flex;
+}
+
+div.info{
+    display: flex;
+    margin-left: 120px;
+    margin-top: -175px;
+    margin-right: 832px;
+    justify-content: space-around;
+}
+
+.chamada-img{
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+div.info ion-icon{
+    display: block;
+}
+
+.ver-menu{
+    display: flex;
+}
+
+.ver-menu p{
+    margin-left: 40px;
+}
+
+.chamada{
+    margin-top: 100px;
+    margin-left: 120px;
+}
