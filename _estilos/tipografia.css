@@ -37,7 +37,7 @@ p, li, a {
     line-height: normal;
 }
 
-span{
+.chamada span{
     color: #2A9D8F;
     font-family: "Josefin Sans";
     font-size: 48px;
@@ -49,4 +49,77 @@ span{
 .ver-menu p{
     font-size: 30px;
     margin-top: 138px;
+}
+
+.especialidades h4{
+    color: #E76F51;
+    font-family: "Josefin Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.especialidades h1{
+    color: #000;
+    font-family: Rancho;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 50px;
+}
+
+.especialidades-info span{
+    color: #E76F51;
+    font-family: "Josefin Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.especialidades-info h2{
+    color: #000;
+    font-family: "Josefin Sans";
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.especialidades-info h3{
+    color: #000;
+    font-family: "Josefin Sans";
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.especialidades-info h5{
+    color: #000;
+    font-family: "Libre Franklin";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.especialidades-info button{
+    color: #FFF;
+    font-family: "Libre Franklin";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.especialidades2 span{
+    color: #E76F51;
+    font-family: "Josefin Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }

@@ -30,7 +30,7 @@ nav ul{
     list-style: none;
 }
 
-button{
+.ver-menu button{
     border-radius: 10px;
     box-shadow: 5px 5px 15px 0px #F4A261;
     background-color:#E76F51;
@@ -41,6 +41,7 @@ button{
     margin-top: 126px;
     border-style: none;
     color: white;
+    cursor: pointer;
 }
 
 .geral{
@@ -49,19 +50,35 @@ button{
 
 div.info{
     display: flex;
-    margin-left: 120px;
+    margin-left: 110px;
     margin-top: -175px;
-    margin-right: 832px;
+    margin-right: 822px;
     justify-content: space-around;
 }
 
 .chamada-img{
     margin-left: auto;
     margin-top: 10px;
+    position: relative;
+}
+
+
+.seta-direita{
+    position: relative;
+    margin-left: 430px;
+    margin-top: -69px;
+    background: white;
+}
+
+.seta-esquerda{
+    position: relative;
+    margin-left: 555px;
+    margin-top: -59px;
 }
 
 div.info ion-icon{
     display: block;
+    margin-bottom: auto;
 }
 
 .ver-menu{
@@ -72,7 +89,113 @@ div.info ion-icon{
     margin-left: 40px;
 }
 
+div.icon .leaf , .rocket{
+    border-right: 2px solid black;
+    padding-right: 70px;
+}
+
 .chamada{
     margin-top: 100px;
     margin-left: 120px;
+}
+
+
+.setas 
+
+/*ESPECIALIDADES*/
+
+
+.especialidades{
+    width: 100%;
+    flex-shrink: 0;
+    display: block;
+    background: #EFEFEF;
+    position: relative;
+}
+
+.especialidades h4{
+    margin-left: 662px;
+    margin-right: 667px;
+    margin-top: -30px;
+}
+
+.especialidades h1{
+    margin-left: 577px;
+    margin-right: 578px;
+    margin-top: 40px;
+} 
+
+.especialidades-info{
+    margin-left: 222px;
+    margin-top: 100px;
+}
+
+.especialidades-img{
+    margin-left: 766px;
+    margin-right: 211px;
+    margin-top:-500px;
+    margin-bottom: 87px;
+}
+
+.especialidades-info button{
+    width: 170px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background-color: #2A9D8F;
+    border-style: none;
+    cursor: pointer;
+}
+
+.especialidades2{
+    position: relative;
+    margin-top: 227px;
+}
+
+.especialidades2 span{
+    margin-left: 832px;
+}
+
+.especialidades2 h3{
+    margin-left: 832px;
+    color: #000;
+    font-family: "Josefin Sans";
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.especialidades2 p{
+    margin-left: 832px;
+    color: #333;
+    font-family: "Libre Franklin";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+
+.especialidades2 h5{
+    margin-left: 832px;
+    color: #000;
+    font-family: "Libre Franklin";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.especialidades2 button{
+    margin-left: 832px;
+    width: 170px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 10px;
+}
+
+.especialidades2-img{
+    margin-bottom: 91px;
+    margin-top: -745px;
+    margin-left: 212px;
 }

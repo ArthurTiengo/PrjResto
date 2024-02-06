@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,13 +10,16 @@
     <!--FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Rancho&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Rancho&display=swap"
+        rel="stylesheet">
     <title>PizzariaResto</title>
 </head>
+
 <body>
     <div class="container">
         <nav>
-            <ul> 
+            <ul>
                 <li><a href="#">Contact</a></li>
                 <li><a href="#">Nosotros</a></li>
                 <li class="titulo">Resto</li>
@@ -25,37 +29,75 @@
         </nav>
         <header>
             <section class="geral">
-            <div class="chamada">
-                <p>Comida casera,<br> saludable y <span>vegana.</span> </p>
-            <div class="ver-menu">
-                <button>Ver Menu</button>
-                <p>Local Cerca</p>
-            </div>
-            </div>
-            <div class="chamada-img">
-                <img src="_imagens/korean-dish-gc0e898cb5_1280 1.png" alt="">
-            </div>
-            </div>
-            <div class="info">
-                <div>
-                    <ion-icon name="leaf-outline"></ion-icon>
-                    <p>Fresco</p>
-                </div>
-                <div>
-                    <div>
-                        <ion-icon name="rocket-outline"></ion-icon>
-                        <p>Rápido</p>
+                <div class="chamada">
+                    <p>Comida casera,<br> saludable y <span>vegana.</span> </p>
+                    <div class="ver-menu">
+                        <button>Ver Menu</button>
+                        <p>Local Cerca</p>
                     </div>
                 </div>
-                <div>
-                    <ion-icon name="headset-outline"></ion-icon>
-                    <p>Suporte</p>
-            </div>
+                <div class="chamada-img">
+                    <img src="_imagens/korean-dish-gc0e898cb5_1280 1.png" alt="">
+                    <div class="seta-direita">
+                        <ion-icon name="arrow-back-outline"></ion-icon>
+                    </div>
+                    <div class="seta-esquerda">
+                        <ion-icon name="arrow-forward-outline"></ion-icon>
+                    </div>
+                </div>
+    </div>
+    <div class="info">
+        <div class="icon">
+            <ion-icon class="leaf" name="leaf-outline"></ion-icon>
+            <p>Fresco</p>
+        </div>
+        <div class="icon">
+            <ion-icon class="rocket" name="rocket-outline"></ion-icon>
+            <p>Rápido</p>
+        </div>
+        <div>
+            <ion-icon name="headset-outline"></ion-icon>
+            <p>Suporte</p>
+        </div>
         </section>
         </header>
     </div>
+    <header>
+        <section class="especialidades">
+            <h1>Especialidades</h1>
+            <h4>de la casa</h4>
+            <div class="especialidades-info">
+                <span>Postres</span><br>
+                <div></div>
+                <h3>Yogurt Griego con <br> Semillas y Fresas</h3>
+                <div></div>
+                <p>Este es un simple texto de relleno solo esta <br> para rellenar, y mostrar el lugar donde iria un
+                    <br> texto
+                    real de la pagina cuando este hecha en <br> su totalidad
+                </p>
+                <h5>$150</h5>
+                <button>Encargar</button>
+                <div class="especialidades-img">
+                    <img src="_imagens/granola-gd58857f68_1280 1.png" alt="">
+                </div>
+            </div>
+            <div class="especialidades2">
+                <span>Almuerzo</span>
+                <h3>Sopa de Mani con <br> garbanzo</h3>
+                <p>Este es un simple texto de relleno solo esta <br> para rellenar, y mostrar el lugar donde iria un
+                    <br> texto real de la pagina cuando este hecha en <br> su totalidad
+                </p>
+                <h5>$150</h5>
+                <button>Encargar</button>
+                <div class="especialidades2-img">
+                    <img src="_imagens/vegan-g07dc68689_1280 1.png" alt="">
+                </div>
+            </div>
+        </section>
+    </header>
     <!--ion-icon-->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>
