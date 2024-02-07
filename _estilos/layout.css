@@ -192,10 +192,135 @@ div.icon .leaf , .rocket{
     height: 40px;
     flex-shrink: 0;
     border-radius: 10px;
+    background: #2A9D8F;
+    color: white;
+    font-size: 20px;
+    border-style: none;
 }
 
 .especialidades2-img{
     margin-bottom: 91px;
-    margin-top: -745px;
+    margin-top: -680px;
     margin-left: 212px;
+}
+
+/*MENU*/
+
+.menu{
+    margin-left: 30px;
+    width: 100%;
+    position: relative;
+}
+
+.menu2{
+    margin-top: 34px;
+    margin-left: 664px;
+}
+
+.vegan{
+    margin-left: 664px;
+    margin-top: -50px;
+}
+
+.Desayuno2{
+    margin-left: 209px;
+}
+
+.cafe{
+    margin-bottom: 130px;
+}
+
+.cafe-img{
+    margin-left: 137px;
+    margin-top: 65px;
+    width: 99px;
+    height: 99px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: url(<path-to-image>), lightgray -11.59px -75.9px / 111.854% 179.397% no-repeat;
+}
+
+.cafe p{
+    margin-left: 243px;
+    margin-top: -70px;
+}
+
+.cafe h3{
+    margin-left: 422px;
+    margin-top: -45px;
+}
+
+.cafe h4{
+    margin-left: 243px;
+    margin-top: -20px;
+}
+
+.Almuerzo h2{
+    margin-left: 627px;
+    margin-top: -725px;
+}
+
+.Almuerzo .cafe{
+    margin-left: 432px;
+    margin-top: -5px;
+}
+
+.Merienda h2{
+    margin-left: 1065px;
+    margin-top: -715px;
+}
+
+.Merienda .cafe{
+    margin-left: 870px ;
+    margin-top: -5px;
+}
+
+/*TESTEMUNHOS*/
+
+.Testimonio{
+    margin-left: 60px;
+    position: relative;
+}
+
+.test{
+    margin-left: 667px;
+    margin-top: 200px;
+}
+
+.Testimonio h3{
+    margin-top: -20px;
+    margin-left: 564px;
+}
+
+.testemunho p{
+    position: relative;
+    margin-top: 300px;
+    margin-left: 222px;
+}
+
+.testemunho-img{
+    margin-top: -525px;
+    margin-left: 120px;
+}
+
+.testemunho h4{
+    position: relative;
+    margin-left: 653px;
+    margin-top: 56px;
+}
+
+/*ESPECIALISTAS*/
+
+.especialistas{
+    width: 100%;
+    margin-top: 144px;
+}
+
+.Expertos p{
+    margin-left: 671px;
+}
+
+.Expertos h3{
+    margin-top: -30px;
+    margin-left: 572px;
 }
