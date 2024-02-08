@@ -255,3 +255,26 @@ p, li, a {
     font-weight: 400;
     line-height: normal;
 }
+
+.especialistas-info h4{
+    color: #333;
+    font-family: "Libre Franklin";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.especialistas-info p{
+    color: #333;
+    font-family: "Libre Franklin";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+
+
+.especialistas-info3 h4{
+    font-size: 19px;
+}

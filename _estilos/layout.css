@@ -314,6 +314,7 @@ div.icon .leaf , .rocket{
 .especialistas{
     width: 100%;
     margin-top: 144px;
+    margin-bottom: 57px;
 }
 
 .Expertos p{
@@ -323,4 +324,66 @@ div.icon .leaf , .rocket{
 .Expertos h3{
     margin-top: -30px;
     margin-left: 572px;
+}
+
+.especialistas-img{
+    margin-left:120px;
+    margin-right: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 57px;
+}
+
+.especialistas-info {
+    position: relative;
+    width: 270px;
+    height: 130px;
+    flex-shrink: 0;
+    background-color: white;
+    margin-left: 160px;
+    margin-top: -200px;
+}
+
+.especialistas-info h4{
+    width: 151px;
+    margin-left: 60px;
+}
+
+.especialistas-info p{
+    width: 45px;
+    margin-left: 113px;
+}
+
+.icones ion-icon{
+    width: 20px;
+    color: #55ACEE;
+    justify-content: space-around;
+    margin-left: 22px;
+    margin-top: -34px;
+    padding-left: 24px;
+}
+
+.especialistas-info2{
+    position: relative;
+    left: 490px;
+    top: -190px;
+}
+
+.especialistas-info2 h4{
+    padding-left: 10px;
+}
+
+.especialistas-info3{
+    position: relative;
+    left: 480px;
+    top: -170px;
+    background-color: white;
+}
+
+/*RESERVA*/
+
+.reserva{
+    width: 100%;
+    margin-left: 50px;
 }
